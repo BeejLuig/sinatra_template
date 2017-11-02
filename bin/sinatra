@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+puts 'Enter the name of your project'
+puts '(spaces will be replaced with underscores)'
+proj_name = gets.chomp.split(' ').join('_')
+system "cp -r ~/sinatra_template/app #{proj_name}"
+Dir.chdir(proj_name) do
+  system "bundle install"
+end
+puts "Success! Sinatra project successfully created"
+puts "You can get started with these commands --"
+puts "     cd #{proj_name}"
+puts "     ruby app.rb"
