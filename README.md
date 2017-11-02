@@ -7,7 +7,8 @@ A quick and easy-ish Sinatra app boilerplate.
 - Clone this repo
 - `mv sinatra_template ~/sinatra_template`
 - `cd ~`
-- In your `.profile` or `.bash_profile` page, copy/paste the line below \*
+- In your home directory there may be a `.profile` or `.bash_profile` file. If there isn't one, you can create a new file with `touch .profile` or `touch .bash_profile`
+- Open your `.profile` or `.bash_profile` and \*copy/paste the line below
   - `alias sinatra="~/sinatra_template/bin/sinatra"`
 
 ### Usage
