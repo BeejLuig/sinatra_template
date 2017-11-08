@@ -56,6 +56,12 @@ end
 Creates a `.sqlite3` file (e.g. `development.sqlite3`)
 Creates a `schema.rb` file inside of `/db`
 
+#### Undo last migration
+
+`rake db:rollback`
+
+Removes `schema.rb`
+
 #### Drop a database
 
 `rake db:drop`
